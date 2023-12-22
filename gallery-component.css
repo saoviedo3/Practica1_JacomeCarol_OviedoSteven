@@ -1,0 +1,52 @@
+/* Estilos para la galería de imágenes */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainImage {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#thumbnails {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.img1 {
+    border: 2px solid #3498db;
+}
+.img2 {
+    border: 2px solid #3498db;
+}
+.img3 {
+    border: 2px solid #3498db;
+}
+
+.thumbnail {
+    width: 50px; /* Cambia esto al tamaño que desees */
+    height: 50px; /* Cambia esto al tamaño que desees */
+    object-fit: cover;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
